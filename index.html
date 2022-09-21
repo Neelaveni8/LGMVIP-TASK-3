@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>LGM-VIP<h1>
+    <h1> REGISTRATION FORM</h1>
+    <div class="container centre">
+        <table>
+            <tr>
+                <td>
+                    <form class="input-part" autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="Name">Name</label>
+                            <input type="text" placeholder="Name" name="Name" id="Name" required>
+                        </div>
+                        <div>
+                            <label for="MobileNo">MobileNo</label>
+                            <input placeholder="MobileNo" type="text" name="MobileNo" id="MobileNo" required>
+                        </div>
+                        <div>
+                            <label for="Email">Email</label>
+                            <input placeholder="Email" type="text" name="Email" id="Email" required>
+                        </div>
+                        <div class="form-btns">
+                            <input type="Submit" value="Enroll">
+                            <input type="reset" value="Clear">
+                            
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Name &nbsp; &nbsp;</th>
+                                <th>MobileNo&nbsp; &nbsp; </th>
+                                <th>Email &nbsp; &nbsp; </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <script src="script.js" defer> </script>
+
+    </div>
+    <h3>Created by Neelaveni</h3>
+</body>
+</html>
